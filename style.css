@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", Arial, Helvetica;
+}
+
+.main {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  margin-top: 10vh;
+}
+
+.container {
+  width: 1015px;
+  height: 701px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: rgb(238, 238, 238, 0.4);
+  box-shadow: 5px 5px 5px 0px rgb(206, 203, 203);
+}
+
+.formulario {
+  width: 410px;
+  height: 519px;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+h1 {
+  color: #ff171b;
+  font-size: 32px;
+  font-family: "Montserrat";
+  font-weight: bolder;
+  line-height: 39px;
+  text-align: center;
+}
+
+.logo,
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 7px;
+  margin-top: 10px;
+}
+
+.logo a {
+  border: 1px solid #000;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.bg {
+}
+
+p {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.box .type-box {
+  width: 410px;
+  height: 50px;
+  border: 1px solid #acc9e6;
+  border-radius: 8px;
+  padding: 16px;
+  color: #c3d4e5;
+  line-height: 20px;
+  font-size: 16px;
+  margin-top: 16px;
+  background: #f2f6fa;
+}
+
+input[type="checkbox"] + label {
+  display: block;
+  cursor: pointer;
+  padding: 0.1em;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label:before {
+  content: "\2714";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 15px;
+  margin-bottom: -2px;
+  border-radius: 3px;
+  margin-top: 25px;
+  padding-left: 0.2em;
+  padding-bottom: 0.3em;
+  color: transparent;
+  border: 0.1em solid #000;
+  vertical-align: baseline;
+}
+
+input[type="checkbox"]:checked + label:before {
+  background-color: #ff171b;
+  color: #000;
+  border-color: #ff171b;
+}
+
+label {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+}
+span {
+  color: #ff171b;
+}
+
+.btn-all {
+  display: flex;
+}
+
+.btn1 {
+  margin-top: 40px;
+  margin-right: 17px;
+  border: none;
+  width: 195px;
+  height: 55px;
+  color: #fff;
+  background-color: #ff171b;
+  border-radius: 8px;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: ;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+}
+
+.btn2 {
+  margin-top: 40px;
+  border: 1px solid red;
+  width: 195px;
+  height: 55px;
+  color: #ff171b;
+  background-color: transparent;
+  border-radius: 8px;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+}
